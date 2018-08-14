@@ -1,0 +1,124 @@
+# Typewriter theme
+# Based on Arc Openbox theme
+# Arc Openbox Copyright (C) 2015 Dino Duratović <dinomol@mail.com>
+#
+# Inspired by and made for horst3180's Arc GTK theme
+# https://github.com/horst3180/Arc-theme
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+### WINDOW
+border.width: 1
+
+window.client.padding.width: 0
+window.client.padding.height: 0
+window.handle.width: 0
+
+padding.width: 4
+padding.height: 4
+
+window.active.border.color: #dbdfe3
+window.inactive.border.color: #dbdfe3
+window.active.title.separator.color: #EEEEEE
+window.inactive.title.separator.color: #EEEEEE
+window.active.client.color: #dbdfe3
+window.inactive.client.color: #dbdfe3
+
+window.active.label.text.color: #EEEEEE
+window.inactive.label.text.color: #EEEEEE
+
+window.active.button.unpressed.image.color: #cdcec2
+window.active.button.pressed.image.color: #cdcec2
+window.active.button.disabled.image.color: #EEEEEE
+window.active.button.toggled.unpressed.image.color: #cdcec2
+window.active.button.toggled.pressed.image.color: #cdcec2
+
+window.inactive.button.unpressed.image.color: #cdcec2
+window.inactive.button.pressed.image.color: #cdcec2
+window.inactive.button.disabled.image.color: #EEEEEE
+window.inactive.button.toggled.unpressed.image.color: #cdcec2
+window.inactive.button.toggled.pressed.image.color: #cdcec2
+
+window.active.button.hover.image.color: #262626
+window.active.button.toggled.hover.image.color: #262626
+window.inactive.button.toggled.hover.image.color: #262626
+window.inactive.button.hover.image.color: #262626
+
+window.active.title.bg: flat solid
+window.active.title.bg.color: #EEEEEE
+window.active.label.bg: flat solid
+window.active.label.bg.color: #EEEEEE
+window.inactive.title.bg: flat solid
+window.inactive.title.bg.color: #EEEEEE
+window.inactive.label.bg: flat solid
+window.inactive.label.bg.color: #EEEEEE
+
+window.active.button.unpressed.bg: parentrelative
+window.active.button.pressed.bg: parentrelative
+window.active.button.hover.bg: parentrelative
+window.active.button.disabled.bg: parentrelative
+window.active.button.toggled.unpressed.bg: parentrelative
+window.active.button.toggled.pressed.bg: parentrelative
+window.active.button.toggled.hover.bg: parentrelative
+window.inactive.button.unpressed.bg: parentrelative
+window.inactive.button.pressed.bg: parentrelative
+window.inactive.button.hover.bg: parentrelative
+window.inactive.button.disabled.bg: parentrelative
+window.inactive.button.toggled.unpressed.bg: parentrelative
+window.inactive.button.toggled.pressed.bg: parentrelative
+window.inactive.button.toggled.hover.bg: parentrelative
+
+window.label.text.justify: center
+
+### MENU
+# 333
+# eee
+menu.items.active.bg: Flat Solid
+menu.items.active.bg.color: #333
+menu.items.active.text.color: #eee
+menu.title.text.justify: Center
+menu.items.bg: Flat Solid
+menu.items.bg.color: #eee
+menu.items.disabled.text.color: #999
+menu.items.font: shadow=n
+menu.items.text.color: #333
+menu.overlap.x: -14
+menu.overlap.y: 0
+menu.separator.color: #eee
+menu.title.bg: Solid Flat
+menu.title.bg.color: #eee
+menu.title.text.color: #333
+menu.title.text.font: shadow=n
+
+menu.border.width:             10
+menu.separator.width:          1
+menu.separator.padding.width:  4
+menu.separator.padding.height: 2
+menu.border.color: #eee
+
+
+### OSD
+osd.border.width: 1
+
+osd.border.color: #dbdfe3
+osd.label.text.color: #5c616c
+
+osd.bg: flat solid
+osd.bg.color: #EEEEEE
+osd.label.bg: flat solid
+osd.label.bg.color: #EEEEEE
+osd.hilight.bg: flat solid
+osd.hilight.bg.color: #3598DC
+osd.unhilight.bg: flat solid
+osd.unhilight.bg.color: #ffffff
